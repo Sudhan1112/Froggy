@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000000;
+    color: #00e777;
+}
+
+.game-container {
+    text-align: center;
+    background: #222;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 255, 119, 0.2);
+    width: 350px;
+}
+
+.game-title {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#timer {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #00e777;
+    color: #222;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+/* Grid Styling */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(10, 30px);
+    gap: 2px;
+    background: #222;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #00e777;
+    margin: 0 auto;
+}
+
+.grid div {
+    width: 30px;
+    height: 30px;
+    background: #000000;
+}
+
+/* Frog Styling */
+.frog {
+    background: #00e777;
+    border-radius: 50%;
+}
+
+/* Car Styling */
+.car {
+    background: #f1f1f1;
+    border: 2px solid #ff5555;
+}
+
+/* Log Styling */
+.log {
+    background: #00bcd4;
+}
+
+/* Starting Block */
+.starting-block {
+    background: #4caf50;
+}
+
+/* Ending Block */
+.ending-block {
+    background: #ffeb3b;
+}
